@@ -1,0 +1,83 @@
+{
+  "overview": {
+    "total_responses": 193,
+    "primary_age_group": "25-30 years",
+    "primary_profession": "Corporate",
+    "primary_travel_frequency": "2-3 times/year"
+  },
+  "demographics": {
+    "age_groups": {
+      "15 to 20 years": 13,
+      "20 to 25 years": 54,
+      "25 to 30 years": 69,
+      "30-40 years": 37,
+      ">40 years": 20
+    },
+    "professions": {
+      "Corporate": 91,
+      "Student": 34,
+      "Business Owners": 24,
+      "Self Employed": 20,
+      "Govt services": 7,
+      "Hospitality": 6,
+      "Content Creator": 4,
+      "Other": 10
+    },
+    "travel_frequency": {
+      "Rarely": 7,
+      "Once a year": 48,
+      "2-3 times in a year": 87,
+      "Once a quarter": 34,
+      "Monthly": 14,
+      "Weekly": 3
+    }
+  },
+  "behavior": {
+    "budgets": {
+      "1k-5k": 15,
+      "5k-10k": 49,
+      "10k-25k": 80,
+      ">25k": 48
+    },
+    "travel_preferences": {
+      "Friends": 101,
+      "Solo": 117,
+      "Family": 83,
+      "Couple": 71,
+      "Meet people as you go": 41
+    },
+    "exploration_methods": {
+      "Self guided with google maps": 157,
+      "Word of mouth/ local recommendations": 131,
+      "Wander around on your own": 109,
+      "Guides and guided tours": 17
+    }
+  },
+  "insights": {
+    "experiences_sought": {
+      "Nature/ Adventure": 167,
+      "Local culture and customs": 135,
+      "Popular landmarks": 104,
+      "Food Exploration": 98,
+      "Events/festivals": 80,
+      "Relaxation": 4
+    },
+    "problems_faced": {
+      "Scams and overcharging": 116,
+      "Difficulty in finding locations beyond tourist spots": 102,
+      "Hard to explore local traditions and culture": 59,
+      "Language Barriers": 57,
+      "Safety Concerns": 52,
+      "Lack of cultural connection": 49,
+      "Navigation difficulties": 41,
+      "Feeling alone when travelling": 23,
+      "Feeling bored or lack of thrill": 22
+    }
+  },
+  "satisfaction_metrics": {
+    "satisfaction_scores": { "1": 2, "2": 6, "3": 27, "4": 12, "5": 12 },
+    "missing_experiences": { "1": 4, "2": 5, "3": 18, "4": 24, "5": 8 },
+    "frustration_levels": { "1": 9, "2": 18, "3": 18, "4": 11, "5": 3 },
+    "overspending": { "1": 12, "2": 9, "3": 18, "4": 16, "5": 4 }
+  }
+}
