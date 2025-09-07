@@ -44,13 +44,13 @@
                             </svg>
                             Export Data
                         </button>
-                        <button class="btn btn--primary" id="filtersBtn">
+                        <!-- <button class="btn btn--primary" id="filtersBtn">
                             <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.414A1 1 0 013 6.707V4z" />
                             </svg>
                             Filters
-                        </button>
+                        </button> -->
                     </div>
                 </div>
 
@@ -142,24 +142,26 @@
         <main class="dashboard-main">
             <div class="container">
                 <div class="dashboard-grid">
-                    <section class="dashboard-panel" data-panel="deeper-insights">
+                     <section class="dashboard-panel" data-panel="deeper-insights">
                         <div class="panel-header">
-                            <h2 class="panel-title">Deeper Dive</h2>
-                            <p class="panel-subtitle">Visualizing core traveler tensions and preferences</p>
+                            <h2 class="panel-title">The Traveler's Dilemma</h2>
+                            <p class="panel-subtitle">Visualizing the gap between traveler aspiration and reality</p>
                         </div>
                         <div class="panel-content">
                             <div class="chart-grid">
                                 <div class="chart-container">
-                                    <h3 class="chart-title">Traveler Independence</h3>
+                                    <h3 class="chart-title">The Independence Paradox</h3>
                                     <div class="chart-wrapper" style="position: relative; height: 300px;">
-                                        <canvas id="independenceChart"></canvas>
+                                        <canvas id="paradoxChart"></canvas>
                                     </div>
+                                    <p class="panel-subtitle" style="text-align: center; margin-top: 1rem;">Travelers crave autonomy, but a majority struggle to discover authentic experiences with current tools.</p>
                                 </div>
                                 <div class="chart-container">
-                                    <h3 class="chart-title">Desires vs. Fears</h3>
+                                    <h3 class="chart-title">The Authenticity Gap</h3>
                                     <div class="chart-wrapper" style="position: relative; height: 300px;">
-                                        <canvas id="desireVsFearChart"></canvas>
+                                        <canvas id="authenticityGapChart"></canvas>
                                     </div>
+                                     <p class="panel-subtitle" style="text-align: center; margin-top: 1rem;">The demand for cultural exploration is high, but the path is blocked by significant barriers like scams and access.</p>
                                 </div>
                             </div>
                         </div>
@@ -248,25 +250,25 @@
 
                     <section class="dashboard-panel" data-panel="satisfaction">
                         <div class="panel-header">
-                            <h2 class="panel-title">Satisfaction Metrics</h2>
-                            <p class="panel-subtitle">Satisfaction scores, frustration levels & experience gaps</p>
+                            <h2 class="panel-title">User Metrics</h2>
+                            <p class="panel-subtitle">Trip Satisfaction scores, frustration levels & experience gaps in current users</p>
                         </div>
                         <div class="panel-content">
                             <div class="chart-grid">
                                 <div class="chart-container">
-                                    <h3 class="chart-title">Overall Satisfaction</h3>
+                                    <h3 class="chart-title">Overall Satisfaction on the Trip</h3>
                                     <div class="chart-wrapper" style="position: relative; height: 200px;">
                                         <canvas id="satisfactionChart"></canvas>
                                     </div>
                                 </div>
                                 <div class="chart-container">
-                                    <h3 class="chart-title">Frustration Levels</h3>
+                                    <h3 class="chart-title">Frustration Levels on the Trip</h3>
                                     <div class="chart-wrapper" style="position: relative; height: 200px;">
                                         <canvas id="frustrationChart"></canvas>
                                     </div>
                                 </div>
                                 <div class="chart-container">
-                                    <h3 class="chart-title">Missing Experiences</h3>
+                                    <h3 class="chart-title">Missed Experiences on the Trip</h3>
                                     <div class="chart-wrapper" style="position: relative; height: 200px;">
                                         <canvas id="missingChart"></canvas>
                                     </div>
@@ -304,9 +306,9 @@
                             </div>
                             <div class="insight-card">
                                 <div class="insight-icon">💡</div>
-                                <h3>The Unmet Need</h3>
-                                <p>There's a clear, unmet demand for platforms that offer flexible, culturally rich,
-                                    self-driven travel experiences, moving beyond generic package tours.</p>
+                                <h3>The Untapped Space</h3>
+                                <p>There's a clear, unmet <b>demand for platforms that offer flexible, culturally rich,
+                                    self-driven travel experiences</b>, moving beyond generic package tours.</p>
                             </div>
                         </div>
                     </section>
